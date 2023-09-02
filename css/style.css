@@ -250,26 +250,46 @@ button {
   }
 }
 @media (max-width: 480px) {
-  .top{
+  .top {
     padding: 30px 0 50px;
   }
-  .top__content{
+  .top__content {
     width: 180px;
   }
-  .top__title{
+  .top__title {
     font-size: 15px;
     margin-bottom: 15px;
   }
-  .top__text{
+  .top__text {
     font-size: 8px;
     margin-bottom: 15px;
   }
-  .top__buy{
+  .top__buy {
     padding: 14px 41px;
     font-size: 10px;
   }
   .top__img-l {
     width: 309px;
     left: 167px;
+  }
+}
+@media (max-width: 480px) {
+  .top__content {
+    width: 200px;
+    padding: 20px 0 0;
+  }
+  .top__title {
+    font-size: 18px;
+  }
+  .top__text {
+    font-size: 10px;
+  }
+  .top__img {
+    left: auto;
+    right: 0;
+  }
+  .top__img-l {
+    width: 185px;
+    height: 200px;
   }
 }
