@@ -255,7 +255,6 @@ button {
     margin-bottom: 20px;
   }
   .top__text {
-
     line-height: 15px;
     margin-bottom: 20px;
   }
@@ -269,11 +268,23 @@ button {
   .title {
     font-size: 15px;
   }
-  .about__text {
-
-  }
   .about__list {
-    padding-left: 48px;
+    margin-left: 27px;
+    padding-bottom: 32px;
+    gap: 0 10px;
+  }
+  .about__item-img {
+    margin-bottom: 6px;
+  }
+  .about__item-text {
+    font-size: 6px;
+  }
+  .about__item-img--1,
+  .about__item-img--3 {
+    width: 121px;
+  }
+  .about__item-img--2 {
+    width: 191px;
   }
 }
 
@@ -345,8 +356,31 @@ button {
     width: 309px;
     left: 167px;
   }
+  .about__inner {
+    align-items: flex-end;
+  }
+  .about__content {
+    min-width: 171px;
+  }
+  .about__item-img--1,
+  .about__item-img--3 {
+    width: 80px;
+  }
+  .about__item-img--2 {
+    width: 140px;
+  }
+  .about__list {
+    margin-left: 5px;
+    padding-left: 11px;
+    gap: 0 5px;
+    padding-bottom: 50px;
+    align-items: flex-end;
+  }
+  .about__item-text {
+    display: none;
+  }
 }
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   .top__content {
     width: 200px;
     padding: 20px 0 0;
@@ -364,5 +398,22 @@ button {
   .top__img-l {
     width: 185px;
     height: 200px;
+  }
+  .about {
+    padding: 25px 0 20px;
+  }
+  .about__content {
+    min-width: 233px;
+  }
+  .about__list {
+    margin-left: 25px;
+    padding-bottom: 32px;
+  }
+  .about__text{
+    font-size: 8px;
+  }
+  .about__item-img--2,
+  .about__item-img--3 {
+    display: none;
   }
 }
