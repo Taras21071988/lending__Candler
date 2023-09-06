@@ -436,7 +436,6 @@ button {
   .about__content {
     min-width: 199px;
   }
-
   .about__list {
     margin-left: 27px;
     padding-bottom: 32px;
@@ -492,6 +491,23 @@ button {
   }
   .steps__item-text {
     font-size: 8px;
+  }
+  .courses__item-img {
+    font-size: 9px;
+  }
+  .courses__title {
+    padding: 8px;
+    left: -1px;
+    top: 44%;
+  }
+  .courses__time {
+    left: -1px;
+    top: 60%;
+  }
+  .courses__prise {
+    padding: 10px 10px;
+    right: -5px;
+    bottom: 3px;
   }
 }
 
@@ -632,6 +648,9 @@ button {
     width: 66px;
     height: 100px;
   }
+  .courses__content {
+    grid-template-columns: auto;
+  }
 }
 @media (max-width: 360px) {
   body {
@@ -705,5 +724,8 @@ button {
   }
   .product__item-text--2 {
     padding-bottom: 6px;
+  }
+  .courses__item,.courses__item img{
+    width: 255px;
   }
 }
