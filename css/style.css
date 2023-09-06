@@ -254,7 +254,7 @@ button {
   color: #bea495;
   font-family: "Yeseva One";
 }
-.steps__item:nth-child(n+10):before{
+.steps__item:nth-child(n + 10):before {
   content: counter(number);
 }
 
@@ -288,6 +288,15 @@ button {
 .footer__social {
   display: flex;
   gap: 15px;
+}
+
+@media (max-width: 1050px) {
+  .steps__list {
+    gap: 37px 35px;
+  }
+  .steps__item {
+    gap: 0 30px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -343,6 +352,22 @@ button {
   .section__inner {
     grid-template-columns: 200px auto;
     gap: 0 10px;
+  }
+  .steps__title {
+    font-size: 32px;
+  }
+  .steps__list {
+    gap: 25px 34px;
+  }
+  .steps__item-text {
+    flex-basis: 94px;
+  }
+  .steps__item {
+    gap: 0 20px;
+  }
+  .steps__item-img {
+    width: 85px;
+    height: 150px;
   }
 }
 @media (max-width: 768px) {
@@ -425,6 +450,15 @@ button {
   .button {
     padding: 10px 26px;
     font-size: 12px;
+  }
+  .steps__title {
+    font-size: 15px;
+  }
+  .steps__item::before {
+    font-size: 20px;
+  }
+  .steps__item-text {
+    font-size: 8px;
   }
 }
 
@@ -538,6 +572,32 @@ button {
   .section__descr {
     margin: 0 auto 30px;
     width: 300px;
+  }
+  .steps__text {
+    font-size: 8px;
+  }
+  .steps__list {
+    gap: 25px 40px;
+  }
+}
+
+@media (max-width: 404px) {
+  .steps__item-text {
+    flex-basis: 72px;
+    font-size: 6px;
+  }
+  .steps__list {
+    gap: 19px 25px;
+  }
+  .steps__item {
+    gap: 0 16px;
+  }
+  .steps__item::before {
+    font-size: 12px;
+  }
+  .steps__item-img {
+    width: 66px;
+    height: 100px;
   }
 }
 @media (max-width: 360px) {
