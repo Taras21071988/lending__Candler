@@ -300,7 +300,7 @@ button {
   background-color: #bea495;
   position: absolute;
 }
-.courses__item-text{
+.courses__item-text {
   padding-bottom: 14px;
 }
 .team {
@@ -339,6 +339,82 @@ button {
 .team__item-descr {
   font-size: 10px;
 }
+.feedback__descr {
+  margin-right: 20px;
+}
+.feedback__content {
+  padding-bottom: 110px;
+}
+.feedback__item-content {
+  padding-bottom: 70px;
+}
+.feedback__item {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 0 16px;
+}
+.feedback__item-video {
+  position: relative;
+}
+.feedback__item-videobtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+.feedback__item-sociallink img {
+  margin-bottom: 12px;
+}
+.feedback__item-name {
+  font-family: "Yeseva One";
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.feedback__item-text {
+  margin-bottom: 15px;
+}
+.feedback__item-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+.feedback__slider {
+  width: 760px;
+  overflow: hidden;
+}
+.feedback__content .swiper-pagination {
+  bottom: 50px;
+}
+.swiper-pagination-bullet{
+  background-color: #BEA495;
+  width: 53px;height: 4px;
+  border-radius: 0;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #7B6152;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   padding-top: 40px;
@@ -556,7 +632,7 @@ button {
   }
   .courses__item-text {
     padding-bottom: 9px;
-}
+  }
   .team__content {
     gap: 30px 14px;
   }
@@ -633,7 +709,8 @@ button {
   }
   .footer__menu-list {
     flex-direction: column;
-  }  .team__item-box {
+  }
+  .team__item-box {
     right: -15px;
   }
   .team__content {
@@ -705,7 +782,6 @@ button {
   .steps__list {
     gap: 25px 40px;
   }
-
 }
 
 @media (max-width: 404px) {
@@ -807,21 +883,22 @@ button {
   .courses__item img {
     width: 255px;
   }
-  .team__content{
+  .team__content {
     grid-template-columns: auto;
     padding: 0;
   }
-  .team__img{
-    width: 207px;height: 220px;
+  .team__img {
+    width: 207px;
+    height: 220px;
   }
-  .team__item-box{
+  .team__item-box {
     width: 151px;
     padding: 14px 8px 15px;
   }
-  .team__item-name{
+  .team__item-name {
     font-size: 11px;
   }
-  .team__item-descr{
+  .team__item-descr {
     font-size: 10px;
   }
 }
