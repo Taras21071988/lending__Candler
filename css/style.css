@@ -504,7 +504,7 @@ button {
     padding-left: 20px;
   }
   .section__inner {
-    grid-template-columns: 300px auto;
+    grid-template-columns: 290px auto;
     gap: 0 10px;
   }
   .products__text {
@@ -512,6 +512,18 @@ button {
   }
   .products__content {
     gap: 67px;
+  }
+  .feedback__inner {
+    grid-template-columns: 260px auto;
+  }
+  .feedback__slider {
+    width: 690px;
+  }
+  .certificates__content img {
+    width: 280px;
+  }
+  .certificates__slider {
+    width: 880px;
   }
 }
 @media (max-width: 900px) {
@@ -679,6 +691,37 @@ button {
     width: 148px;
     height: 155px;
   }
+  .feedback__slider {
+    width: 450px;
+  }
+  .feedback__item-sociallink img {
+    width: 15px;
+    margin-bottom: 10px;
+  }
+  .feedback__item-name {
+    margin-bottom: 10px;
+  }
+  .feedback__item-video {
+    width: 200px;
+  }
+  .feedback__item-img {
+    width: 200px;
+  }
+  .feedback__item-videobtn img {
+    width: 50px;
+  }
+  .feedback__item-content {
+    padding-bottom: 50px;
+  }
+  .feedback__item-text {
+    margin-bottom: 0;
+  }
+  .certificates__content img {
+    width: 200px;
+  }
+  .certificates__slider {
+    width: 620px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -741,6 +784,13 @@ button {
   }
   .team__content {
     gap: 30px 31px;
+  }
+  .swiper-pagination-bullet {
+    width: 28px;
+  }
+  .certificates__content .swiper-pagination {
+    bottom: 60px;
+    text-align: center;
   }
 }
 @media (max-width: 480px) {
@@ -807,6 +857,10 @@ button {
   }
   .steps__list {
     gap: 25px 40px;
+  }
+  .certificates__slider {
+    width: 450px;
+    margin: 0 auto;
   }
 }
 
@@ -926,5 +980,30 @@ button {
   }
   .team__item-descr {
     font-size: 10px;
+  }
+  .certificates__slider {
+    width: 200px;
+  }
+  .feedback__item {
+    grid-template-columns: auto;
+    text-align: center;
+  }
+  .feedback__slider {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .feedback__item-video {
+    width: 250px;
+  }
+  .feedback__item-img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .feedback__item-btn {
+    bottom: 0;
+
+    left: 0;
+    margin: 0 auto;
+    width: 124px;
   }
 }
