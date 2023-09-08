@@ -398,34 +398,49 @@ button {
 .swiper-pagination-bullet-active {
   background-color: #7b6152;
 }
-.certificates__descr{
+.certificates__descr {
   margin-right: 20px;
 }
-.certificates__slider{
+.certificates__slider {
   overflow: hidden;
   width: 1135px;
 }
-.certificates__content{
+.certificates__content {
   padding-bottom: 114px;
 }
-.certificates__content  .swiper-pagination {
+.certificates__content .swiper-pagination {
   bottom: 60px;
   text-align: left;
 }
 
+.promo {
+  background-image: url(../images/promo.jpg);
+  padding: 140px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.promo__inner {
+  display: flex;
+  align-items: center;
+  padding-left: 56px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.promo__text {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Yeseva One";
+  padding-left: 56px;
+  max-width: 765px;
+  margin-right: 110px; 
+}
+.promo__link{
+  color: #272727;
+  background-color: #FFBD59;
+  display: inline-block;
+  padding: 14px 25px 12px;
+}
 
 .footer {
   padding-top: 40px;
