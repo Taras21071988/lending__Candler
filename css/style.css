@@ -412,6 +412,45 @@ button {
   bottom: 60px;
   text-align: left;
 }
+.accordeon {
+}
+.accordeon__item {
+  background-color: #fafafa;
+  margin-bottom: 10px;
+}
+
+.accordeon__title {
+  font-size: 16px;
+  font-family: "Yeseva One";
+  display: block;
+  text-align: left;
+  width: 100%;
+  background-color: transparent;
+  padding: 16px 50px 16px 13px;position: relative;
+}
+.accordeon__title::after {
+  content: "";
+  background-image: url(../images/arrow.svg);
+  width: 16px;
+  height: 16px;position: absolute;
+  right: 26px;top: 17px;
+}
+.accordeon__text {
+  padding: 20px 40px;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .promo {
   background-image: url(../images/promo.jpg);
@@ -963,6 +1002,9 @@ button {
     width: 450px;
     margin: 0 auto;
   }
+  .contacts {
+    padding-top: 50px;
+  }
   .contacts__img {
     display: none;
   }
@@ -980,8 +1022,10 @@ button {
   .promo__text {
     max-width: 210px;
     margin-right: 0;
-  }.form__btn{
-    font-size: 8px;padding: 12px 12px;
+  }
+  .form__btn {
+    font-size: 8px;
+    padding: 12px 12px;
   }
 }
 
@@ -1122,10 +1166,11 @@ button {
   }
   .feedback__item-btn {
     bottom: 0;
-
     left: 0;
     margin: 0 auto;
     width: 124px;
   }
-  .promo__inner{padding:0 10px;}
+  .promo__inner {
+    padding: 0 10px;
+  }
 }
