@@ -417,6 +417,7 @@ button {
 .accordeon__item {
   background-color: #fafafa;
   margin-bottom: 10px;
+  box-shadow: 0px 4px 11px 0px rgba(196, 174, 151, 0.2);
 }
 
 .accordeon__title {
@@ -426,31 +427,39 @@ button {
   text-align: left;
   width: 100%;
   background-color: transparent;
-  padding: 16px 50px 16px 13px;position: relative;
+  padding: 16px 50px 16px 13px;
+  position: relative;
 }
 .accordeon__title::after {
   content: "";
   background-image: url(../images/arrow.svg);
   width: 16px;
-  height: 16px;position: absolute;
-  right: 26px;top: 17px;
+  height: 16px;
+  position: absolute;
+  right: 26px;
+  top: 17px;
+}
+.accordeon__title--active::after {
+  content: "";
+  background-image: url(../images/arrow.svg);
+  rotate: 180deg;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 26px;
+  top: 17px;
 }
 .accordeon__text {
-  padding: 20px 40px;
-  display: none;
+  max-height: 0;
+  opacity: 0;
+  transition: opacity 0.3s, max-height 0.3s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.accordeon__text ol {
+  padding: 20px 40px;
+}
+.accordeon__text.accordeon__text--visible {
+  opacity: 1;
+}
 
 .promo {
   background-image: url(../images/promo.jpg);
