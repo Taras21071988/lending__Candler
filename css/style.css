@@ -412,8 +412,7 @@ button {
   bottom: 60px;
   text-align: left;
 }
-.accordeon {
-}
+
 .accordeon__item {
   background-color: #fafafa;
   margin-bottom: 10px;
@@ -438,16 +437,18 @@ button {
   position: absolute;
   right: 26px;
   top: 17px;
+  transition: rotate 0.5s;
 }
 .accordeon__title--active::after {
   content: "";
   background-image: url(../images/arrow.svg);
-  rotate: 180deg;
+  rotate: 540deg;
   width: 16px;
   height: 16px;
   position: absolute;
   right: 26px;
   top: 17px;
+  transition: rotate 0.5s;
 }
 .accordeon__text {
   max-height: 0;
